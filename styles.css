@@ -29,7 +29,6 @@ html::-webkit-scrollbar-thumb:active {
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.4;
   background-color: #121622;
 }
 
@@ -1424,13 +1423,12 @@ footer .container .contents .subscribe .input i {
     animation: fadeIn 0.5s ease-in-out;
   }
   .click_hold:hover .hidden1 {
-   top: -200% !important; }
-  
- 
+   display: none; 
+  }
 }
 
 @media (max-width: 650px) {
-  header img{
+  .logo-holder{
     transform:scale(0.8);
   } 
   .hero .container {
@@ -1528,20 +1526,20 @@ transform: scale(0.7);
   .gif {
     transform: scale(0.8);
   }
+   .gallary{
+    height: 250vh !important;
+  } 
 }
 @media (max-height: 600px) {
   .login-box1 {
     height: 80%;
   }
-  .gallary{
-    height: 250vh !important;
-  }
   .click_hold {
     top: 2% !important;
   }
-  .hidden2{
+  .hidden2,
+  .hidden1{
     top: 50% !important;
-    padding: 20px;
   }
   
   .slide-gif {
