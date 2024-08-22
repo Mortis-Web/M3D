@@ -1016,9 +1016,7 @@ a {
   text-decoration: underline;
 }
 .slide-gif {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+background: linear-gradient(180deg,#090b13,#121622);
   display: flex !important;
   flex-direction: column;
   justify-content: center;
@@ -1028,8 +1026,8 @@ a {
 }
 .slide-gif .gif {
   background-image: url("giphy.webp");
-  width: 480px;
-  height: 350px;
+  width: 400px;
+  height: 300px;
   position: relative;
   transition: 0.4s all ease;
   border-radius: 50%;
