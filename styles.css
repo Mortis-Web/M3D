@@ -1425,7 +1425,7 @@ footer .container .contents .subscribe .input i {
     justify-content: center;
     align-items: center;
     top: 0;
-    text-align: center;
+   0 text-align: center;
   }
 
   .hero-headline {
@@ -1454,7 +1454,7 @@ footer .container .contents .subscribe .input i {
   }
   .statis .container .feature-card {
     width: 60% !important;
-    transform: rotate(0deg) !important;
+    rotate: 0deg
   }
   .statis .container .feature-card .feature-card-content {
     transform: rotate(0deg) !important;
@@ -1481,7 +1481,7 @@ footer .container .contents .subscribe .input i {
     gap: 5px;
   }
   .statis .container .feature-card {
-    width: 100% !important;
+    width: 95% !important;
   }
   .login-box1 {
     height: 60%;
