@@ -146,7 +146,7 @@ footer {
 }
 /* Hero Section */
 .hero {
-  height: 100vh;
+  height: 95vh;
   color: #fff;
 }
 
@@ -818,7 +818,8 @@ a {
   color: #7c5933;
 }
 
-.team .hidden {
+.team .hidden1,
+.team .hidden2{
   text-transform: capitalize;
   position: absolute;
   padding: 10px;
@@ -833,7 +834,7 @@ a {
   width: 200px;
   display: none;
 }
-.click_hold:hover .hidden {
+.click_hold:hover .hidden1 {
   display: block;
   animation: fadeIn 0.5s ease-in-out;
 }
@@ -1502,7 +1503,7 @@ footer .container .contents .subscribe .input i {
     gap: 5px;
   }
   .statis .container .feature-card {
-    width: 95% !important;
+    width: 90% !important;
   }
   .login-box1 {
     height: 60%;
@@ -1540,6 +1541,7 @@ transform: scale(0.7);
   }
   .hidden2{
     top: 50% !important;
+    padding: 20px;
   }
   
   .slide-gif {
