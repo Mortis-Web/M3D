@@ -1409,6 +1409,15 @@ footer .container .contents .subscribe .input i {
   .login-box1 {
     width: 90%;
   }
+  team .slide-triangle2:hover {
+  clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
+  z-index: 100;
+}
+.team .slide-triangle1:hover {
+  clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
+  z-index: 100;
+}
+
 }
 
 @media (max-width: 650px) {
