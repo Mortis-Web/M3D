@@ -119,9 +119,7 @@ body {
 }
 
 .header .icons .x:hover {
-  box-shadow: 1px 0px 3px 1px white;
-  background: none;
-  background-clip: text;
+ color: #1DA1F2;
 }
 
 .header .icons .instagram:hover {
