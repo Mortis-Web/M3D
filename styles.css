@@ -1421,6 +1421,9 @@ footer .container .contents .subscribe .input i {
 }
 
 @media (max-width: 650px) {
+  header img{
+    transform:scale(0.8);
+  } 
   .hero .container {
     display: flex;
     flex-direction: column;
