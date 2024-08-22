@@ -1518,12 +1518,12 @@ transform: scale(0.7);
     transform: scale(0.8);
   }
 }
-@media (max-height: 650px) and (max-width: 700px) {
+@media (max-height: 650px) and (max-width: 768px) {
   .gif {
     transform: scale(0.8);
   }
    .gallary{
-    height: 250vh !important;
+    height: 300vh !important;
   } 
 }
 @media (max-height: 600px) {
