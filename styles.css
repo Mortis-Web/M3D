@@ -644,13 +644,12 @@ a {
 
 .statis .container .feature-card {
   background-color: #090b13;
-  transform: rotate(45deg) !important;
+  rotate: 45deg;
   height: 260px;
   width: 260px;
   position: relative;
   overflow: hidden;
   padding: 15px;
-  transition: 0.4s all ease-in-out;
   line-height: 2.5;
   display: flex;
   justify-content: center;
