@@ -1409,7 +1409,7 @@ footer .container .contents .subscribe .input i {
   .login-box1 {
     width: 90%;
   }
-  team .slide-triangle2:hover {
+ .team .slide-triangle2:hover {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
   z-index: 100;
 }
