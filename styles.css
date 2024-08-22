@@ -1359,10 +1359,6 @@ footer .container .contents .subscribe .input i {
     flex-direction: column;
     width: 100%;
   }
-
-  /* .header .icons {
-    gap: 26px !important ;
-  } */
   .nav-list.show {
     display: flex;
   }
