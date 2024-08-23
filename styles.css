@@ -749,7 +749,7 @@ a {
   background: url("typesofsoftwareengineering.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: calc(70%);
+  background-position: center left;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -757,9 +757,9 @@ a {
 
 .slide_overlay {
   width: 100%;
-  height: 85vh;
+  height: 100%;
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: -1;
 }
