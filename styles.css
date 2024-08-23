@@ -383,7 +383,7 @@ a {
   z-index: 1000;
   background-color: aqua;
   left: 0;
-  bottom: 0;
+  bottom: -5px;
 }
 .features p {
   color: grey;
