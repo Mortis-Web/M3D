@@ -1554,7 +1554,7 @@ transform: scale(0.7);
 }
 @media  (min-width: 769px) and (min-height: 992px) {
 .gallary{
-    height:50vh !important ;
+    height:30vh !important ;
   }
 }
 
