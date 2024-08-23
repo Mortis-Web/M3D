@@ -25,6 +25,18 @@ var homeswiper = new Swiper(".myHomeSwiper", {
   
   });
   
+const observer = new IntersectionObserver(entries => {
+  const firstEntry = entries[0];
+  if (firstEntry.isIntersecting) {
+    homeswiper.autoplay.start();
+  } else {
+    homeswiper.autoplay.stop();
+  }
+});
+
+const swiperContainer = document.querySelector(".myHomeSwiper");
+observer.observe(swiperContainer);
+  
 
 
 
