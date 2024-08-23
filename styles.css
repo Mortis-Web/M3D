@@ -860,7 +860,7 @@ a {
   height: 100%;
   object-position: center;
   cursor: all-scroll;
-  transform: rotate(-180deg);
+  rotate: 180deg;
   object-fit: cover;
     animation: fadeleft 1s  linear;
 }
