@@ -862,6 +862,7 @@ a {
   cursor: all-scroll;
   transform: rotate(-180deg);
   object-fit: cover;
+    animation: fadeleft 1s  linear;
 }
 
 .slide-triangle1 img {
@@ -870,6 +871,7 @@ a {
   cursor: all-scroll;
   object-position: center;
   object-fit: cover;
+    animation: faderight 1s  linear;
 }
 .team .slide-triangle2:active {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
@@ -1031,6 +1033,7 @@ background: linear-gradient(180deg,#090b13,#121622);
   background-position: bottom;
   background-size: cover;
   overflow: hidden;
+  animation:  gifscale 1.5s linear;
 }
 
 .slide-gif .gif::after {
@@ -1281,6 +1284,39 @@ footer .container .contents .subscribe .input i {
     transform: translateY(0);
   }
 }
+@keyframes faderight {
+  from {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeleft {
+  from {
+    opacity: 0;
+    transform: translateX(1000px)  ;
+
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) ;
+
+  }
+}
+@keyframes gifscale {
+  50% {
+    transform: scale(1);
+    filter: contrast(120%);
+  }
+  0% {
+    transform: scale(0.5);
+    filter: contrast(88%);
+  }
+}
+
 @keyframes animateBg {
   50% {
     transform: scale(1);
@@ -1516,6 +1552,12 @@ transform: scale(0.7);
     transform: scale(0.8);
   }
 }
+@media  (min-width: 769px) and (min-height: 992px) {
+.gallary{
+    height:50vh !important ;
+  }
+}
+
 @media (max-height: 650px) and (max-width: 768px) {
   .gif {
     transform: scale(0.8);
