@@ -154,7 +154,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("moon-min.png") no-repeat center center/cover;
+  background: url("moon-min\ \(1\).jpg") no-repeat center center/cover;
   animation: animateBg 5s linear;
 }
 .hero span {
@@ -489,14 +489,14 @@ a {
 }
 
 .g1_img1 {
-  background-image: url("101-min.png");
+  background-image: url("101-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .g1_img3 {
-  background-image: url("5-min.png");
+  background-image: url("5-min\ \(1\)_11zon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -515,28 +515,28 @@ a {
 }
 
 .g1_sec1 .sec1_img1 {
-  background-image: url("102-min.png");
+  background-image: url("102-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .g1_sec1 .sec1_img2 {
-  background-image: url("106-min.png");
+  background-image: url("106-min\ \(1\)_11zon\ \(1\).jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .g1_sec2 .sec1_img1 {
-  background-image: url("107-min.png");
+  background-image: url("107-min\ \(1\)_11zon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .g1_sec2 .sec1_img2 {
-  background-image: url("2-min.png");
+  background-image: url("2-min\ \(1\)_11zon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -545,7 +545,7 @@ a {
 .g2 .g2_img2 {
   width: 100%;
   height: 100%;
-  background-image: url("106-min.png");
+  background-image: url("106-min\ \(1\)_11zon\ \(1\).jpg");
   background-repeat: no-repeat;
   background-position: calc(40%);
   background-size: cover;
@@ -746,7 +746,7 @@ a {
 }
 
 .slide_bg {
-  background: url("6-min.png");
+  background: url("typesofsoftwareengineering.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(70%);
