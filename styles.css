@@ -1599,7 +1599,7 @@ transform: scale(0.7);
     gap: 0;
   }
  .gallary{
-    height: 350vh !important;
+    height: 100vh !important;
   }
  
   .slide-gif p {
