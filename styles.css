@@ -1598,10 +1598,6 @@ transform: scale(0.7);
   .login-box1 {
     gap: 0;
   }
- .gallary{
-    height: 350vh !important;
-  }
- 
   .slide-gif p {
     max-width: 100% !important;
     -webkit-line-clamp: 2;
