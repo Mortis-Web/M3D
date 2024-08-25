@@ -749,7 +749,7 @@ a {
   background: url("typesofsoftwareengineering.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center left;
+  background-position: center left 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -862,7 +862,7 @@ a {
   cursor: all-scroll;
   rotate: 180deg;
   object-fit: cover;
-    animation: fadeleft 1s  linear;
+  animation: fadeleft 0.5s  linear;
 }
 
 .slide-triangle1 img {
@@ -871,7 +871,7 @@ a {
   cursor: all-scroll;
   object-position: center;
   object-fit: cover;
-    animation: faderight 1s  linear;
+    animation: faderight 0.5s  linear;
 }
 .team .slide-triangle2:active {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
@@ -1287,7 +1287,7 @@ footer .container .contents .subscribe .input i {
 @keyframes faderight {
   from {
     opacity: 0;
-    transform: translateX(-1000px);
+    transform: translateY(-500px);
   }
   to {
     opacity: 1;
@@ -1297,7 +1297,7 @@ footer .container .contents .subscribe .input i {
 @keyframes fadeleft {
   from {
     opacity: 0;
-    transform: translateX(1000px)  ;
+    transform: translateY(500px)  ;
 
   }
   to {
