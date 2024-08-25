@@ -585,7 +585,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 1%;
   text-align: center;
 }
 .hover_div p {
@@ -1378,6 +1378,9 @@ footer .container .contents .subscribe .input i {
   .feature-holder {
     max-width: 100%;
     justify-content: space-between;
+  }
+  .hover_div div{
+    transform: scale(0.75);
   }
   .margin-top {
     margin-top: 28% !important;
