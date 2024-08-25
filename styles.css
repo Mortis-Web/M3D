@@ -576,7 +576,7 @@ a {
 .hover_div {
   position: absolute;
   width: 100%;
-  height: 36%;
+  height: 45%;
   background: linear-gradient(25deg, #121622, transparent);
   top: 100%;
   transition: 0.4s all;
@@ -597,28 +597,29 @@ a {
   text-overflow: ellipsis;
 }
 .g1_img1:hover .hover_div {
-  top: 65%;
+  top: 55%;
   z-index: 10000;
 }
-.hover_div a {
-  width: 20px;
+.hover_div .icons {
+  display: flex;
+gap:20px;
 }
 
 .g1_img3:hover .hover_div {
-  top: 65%;
+  top: 55%;
   z-index: 10000;
 }
 
 .g2_img2 .hover_div {
-  height: 20%;
+  height: 30%;
 }
 .g2_img2:hover .hover_div {
-  top: 80%;
+  top: 70%;
   z-index: 10000;
 }
 
 .hover_div .icons i {
-  padding: 10px;
+  padding: 10px 0;
   background: linear-gradient(45deg, aqua, white);
   background-clip: text;
   color: transparent;
