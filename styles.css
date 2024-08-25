@@ -862,7 +862,7 @@ a {
   cursor: all-scroll;
   rotate: 180deg;
   object-fit: cover;
-  animation: fadeleft 0.5s  linear;
+  animation: fadeleft 1s  linear;
 }
 
 .slide-triangle1 img {
@@ -871,7 +871,7 @@ a {
   cursor: all-scroll;
   object-position: center;
   object-fit: cover;
-    animation: faderight 0.5s  linear;
+    animation: faderight 1s  linear;
 }
 .team .slide-triangle2:active {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
@@ -957,7 +957,7 @@ a {
 .login-box1 h2 {
   font-size: 2em;
   color: #fff;
-  animation: fadeIn 3.5s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .textbox {
