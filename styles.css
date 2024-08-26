@@ -164,7 +164,10 @@ footer {
   width: 4px;
   height: 4px;
   background: linear-gradient(to right, #ff0000, #fda258 35%, white);
-  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 16%;
+  border-bottom-right-radius: 16%;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
     0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
   animation: animate 3s linear infinite;
@@ -206,7 +209,7 @@ footer {
 }
 
 .hero span:nth-child(3) {
-  top: 80;
+  top: 0;
   right: 0px;
   left: initial;
   animation-delay: 0.4s;
