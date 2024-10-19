@@ -19,7 +19,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #7c5933;
+  background: aqua;
   border-radius: 0.5rem;
   cursor: grab;
 }
@@ -456,7 +456,7 @@ a {
   color: aqua;
 }
 .feature-holder .feature-card:hover {
-  background: #7c5933;
+  background: aqua;
   border-radius: 0.5rem;
 }
 .feature-card:hover .icon-frame {
@@ -823,7 +823,7 @@ gap:20px;
   transition: 0.4s all ease;
 }
 .team .click_hold i {
-  color: #7c5933;
+  color: aqua;
 }
 
 .team .hidden1,
@@ -833,7 +833,7 @@ gap:20px;
   padding: 10px;
   border-radius: 0.5rem;
   background: #121622;
-  color: #7c5933;
+  color: aqua;
   z-index: 1000;
   top: -100%;
   left: 120%;
@@ -1279,7 +1279,7 @@ footer .container .contents .subscribe .input i {
   bottom: 35px;
   right: 35px;
   cursor: pointer;
-  color: #7c5933;
+  color: aqua;
   transition: all 0.4s;
   z-index: 1;
   transform: scale(1.4);
