@@ -580,7 +580,7 @@ a {
   position: absolute;
   width: 100%;
   height: 45%;
-  background: linear-gradient(25deg, #121622, transparent);
+  background-color: rgba(18, 22, 34, 0.75);
   top: 100%;
   transition: 0.4s all;
   z-index: -10000;
@@ -588,7 +588,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1%;
+  gap: 15%;
   text-align: center;
 }
 .hover_div p {
@@ -1404,7 +1404,7 @@ footer .container .contents .subscribe .input i {
 
   .gallary {
     flex-direction: column;
-    height: 150vh !important;
+    height: 1000px !important;
   }
   .g2 {
     max-height: 20%;
@@ -1553,19 +1553,16 @@ transform: scale(0.7);
     transform: scale(0.8);
   }
 }
-@media  (min-width: 769px) and (min-height: 992px) {
+/* @media  (min-width: 769px) and (min-height: 992px) {
 .gallary{
     height:30vh !important ;
   }
 }
-
+ */
 @media (max-height: 650px) and (max-width: 768px) {
   .gif {
     transform: scale(0.8);
   }
-   .gallary{
-    height: 250vh !important;
-  } 
 }
 @media (max-height: 600px) {
   .login-box1 {
