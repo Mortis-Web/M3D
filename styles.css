@@ -107,7 +107,7 @@ body {
   transform: rotate(360deg);
 }
 .header .icons .facebook:hover {
-  color: #17A9FD;
+  color: #4267b2;
 }
 
 .header .icons .youtube:hover {
@@ -866,7 +866,7 @@ gap:20px;
   cursor: all-scroll;
   rotate: 180deg;
   object-fit: cover;
-  animation: fadeleft 0.75s  linear;
+  animation: fadeleft 0.5s  linear;
 }
 
 .slide-triangle1 img {
@@ -875,7 +875,7 @@ gap:20px;
   cursor: all-scroll;
   object-position: center;
   object-fit: cover;
-    animation: faderight 0.75s  linear;
+    animation: faderight 0.5s  linear;
 }
 .team .slide-triangle2:active {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
@@ -1292,7 +1292,7 @@ footer .container .contents .subscribe .input i {
 @keyframes faderight {
   from {
     opacity: -1;
-    transform: translateY(300px);
+    transform: translateY(600px);
   }
   
 }
@@ -1300,7 +1300,7 @@ footer .container .contents .subscribe .input i {
 @keyframes fadeleft {
   from {
     opacity: -1;
-    transform: translateY(-300px);
+    transform: translateY(-600px);
   }
   
 }
@@ -1505,7 +1505,13 @@ footer .container .contents .subscribe .input i {
   }
   .statis .container .feature-card {
     width: 60% !important;
-    rotate: 0deg
+    rotate: 0deg;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    transition: 0.25s all ease;
+  }
+  .statis .container .feature-card:hover{
+    border-radius:10px;
   }
   .statis .container .feature-card .feature-card-content {
     transform: rotate(0deg) !important;
