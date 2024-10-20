@@ -94,10 +94,6 @@ body {
   background: linear-gradient(90deg, aqua, white);
   background-clip: text;
   color: transparent;
-  text-transform: uppercase;
-  letter-spacing:1px;
-  font-weight:bold;
-
 }
 .header .icons {
   display: flex;
