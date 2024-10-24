@@ -22,10 +22,15 @@ html::-webkit-scrollbar-thumb {
   background: aqua;
   border-radius: 0.5rem;
   cursor: grab;
+  border: 2px solid #090b13;
 }
 html::-webkit-scrollbar-thumb:active {
   cursor: grabbing;
 }
+html::-webkit-scrollbar-thumb:window-inactive {
+background-color: red;
+}
+
 
 body {
   font-family: Arial, sans-serif;
