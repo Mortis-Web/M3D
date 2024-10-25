@@ -169,7 +169,7 @@ footer {
   left: 50%;
   width: 4px;
   height: 4px;
-  background: linear-gradient(to right, #ff0000, #fda258 35%, white);
+  background: linear-gradient(to right, aqua, #5be6e6 35%, white);
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   border-top-right-radius: 16%;
@@ -185,7 +185,7 @@ footer {
   transform: translateY(-50%);
   width: 300px;
   height: 1px;
-  background: linear-gradient(45deg, #fdcf58 -5%, #fff, transparent);
+  background: linear-gradient(45deg, #00ffd1 -5%, #fff, #090b13);
 }
 .hero span:nth-child(1) {
   top: 0;
