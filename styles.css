@@ -1644,8 +1644,8 @@ transform: scale(0.7);
   }
   .gif{
     scale:1;
-    width:225px !important;
-    height:185px !important;
+    width:350px !important;
+    height:300px !important;
   }
 }
 
