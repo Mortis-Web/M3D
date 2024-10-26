@@ -895,7 +895,7 @@ gap:20px;
   cursor: all-scroll;
   rotate: 180deg;
   object-fit: cover;
-  animation: fadeleft 0.5s  linear;
+/*   animation: fadeleft 0.5s  linear; */
 }
 
 .slide-triangle1 img {
@@ -904,7 +904,7 @@ gap:20px;
   cursor: all-scroll;
   object-position: center;
   object-fit: cover;
-    animation: faderight 0.5s  linear;
+/*     animation: faderight 0.5s  linear; */
 }
 .team .slide-triangle2:active {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
@@ -1066,7 +1066,7 @@ background: linear-gradient(180deg,#090b13,#121622);
   background-position: bottom;
   background-size: cover;
   overflow: hidden;
-  animation:  gifscale 1.5s linear;
+/*   animation:  gifscale 1.5s linear; */
 }
 
 .slide-gif .gif::after {
