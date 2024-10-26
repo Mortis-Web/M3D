@@ -1062,7 +1062,7 @@ background: linear-gradient(180deg,#090b13,#121622);
 .slide-gif .gif {
   background-image: url("giphy.webp");
   width: 500px;
-  height: 450px;
+  height: 400px;
   position: relative;
   transition: 0.4s all ease;
   border-radius: 50%;
