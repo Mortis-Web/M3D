@@ -30,6 +30,7 @@ html::-webkit-scrollbar-thumb:active {
 html::-webkit-scrollbar-thumb:window-inactive {
 background-color: red;
 border-radius: 0px;
+border:none;
 }
 html::-webkit-scrollbar-track:window-inactive{
   background-color: white;
@@ -1247,6 +1248,7 @@ footer .container .contents .subscribe p {
   line-height: 26px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin:auto;
 }
 
 footer .container .contents .subscribe label {
@@ -1382,7 +1384,7 @@ opacity: 0;
 }
 @keyframes drop {
   0%{
-margin-bottom: 7.5%;
+margin-bottom: 10%;
 opacity: 0;
   }
   100%{
