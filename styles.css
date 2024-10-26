@@ -432,7 +432,7 @@ a {
 .features .feature-card {
   padding: 15px;
   width: 265px;
-  max-height: 225px;
+  max-height: 250px;
   transition: 0.4s all ease-out !important ;
   line-height: 1.6;
 }
