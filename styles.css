@@ -29,6 +29,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 html::-webkit-scrollbar-thumb:window-inactive {
 background-color: red;
+border-radius: 0px;
 }
 html::-webkit-scrollbar-track:window-inactive{
   background-color: white;
