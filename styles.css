@@ -623,6 +623,7 @@ a {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-size:15px;
   text-overflow: ellipsis;
 }
 .g1_img1:hover .hover_div {
@@ -1438,9 +1439,9 @@ opacity: 0;
     max-width: 100%;
     justify-content: space-between;
   }
-  .hover_div div{
-    transform: scale(0.75);
-  }
+/*   .hover_div div{
+    transform: scale(0.9);
+  } */
   .margin-top {
     margin-top: 28% !important;
   }
@@ -1457,6 +1458,10 @@ opacity: 0;
   }
   .nav-list.show {
     display: flex;
+  }
+  .hover_div p{
+    max-width:75%;
+    margin:auto;
   }
 
   .nav-item {
