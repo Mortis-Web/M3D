@@ -1602,6 +1602,9 @@ opacity: 0;
   footer .blackline .bl_text {
     display: block;
   }
+  .gif{
+    scale:0.75;
+  }
 }
 @media (max-width: 450px) {
   .navbar {
@@ -1618,7 +1621,8 @@ opacity: 0;
 transform: scale(0.7);
   }
   .gif {
-    transform: scale(0.5) !important;
+    
+    transform: scale(0.65) !important;
   }
   .slide-gif h1 {
     max-width: 100%;
@@ -1627,10 +1631,26 @@ transform: scale(0.7);
     max-width: 100%;
   }
   .gif-intro {
-    transform: scale(0.8);
+    transform: scale(0.85);
+  }
+  .portfolio{
+  height:555px !important;
+} 
+  .log_in{
+    height:555px !important;
+  }
+  .team .slide-triangle1, .team .slide-triangle2 {
+    height:555px !important;
+  }
+  .gif{
+    scale:1;
+    width:225px !important;
+    height:185px !important;
   }
 }
-@media (max-height: 768px) {
+
+}
+@media (max-height: 768px) and (min-width: 451px) {
 .portfolio{
   height:750px !important;
 } 
