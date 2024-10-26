@@ -30,10 +30,18 @@ html::-webkit-scrollbar-thumb:active {
 html::-webkit-scrollbar-thumb:window-inactive {
 background-color: red;
 }
+html::-webkit-scrollbar-track:window-inactive{
+  background-color: white;
+}
+
+@font-face {
+  font-family: jura;
+  src: url(Jura-VariableFont_wght.ttf);
+}
 
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: jura;
   background-color: #121622;
 }
 
@@ -99,6 +107,7 @@ body {
   background: linear-gradient(90deg, aqua, white);
   background-clip: text;
   color: transparent;
+   font-weight: bold;
 }
 .header .icons {
   display: flex;
@@ -334,6 +343,7 @@ footer {
   color: transparent;
   background: linear-gradient(25deg, white, aqua);
   background-clip: text;
+  font-weight: bold;
 }
 .hero-cta:hover::before,
 .hero-cta:hover::after {
@@ -1361,6 +1371,25 @@ opacity: 0;
   }
   
 }
+@keyframes drop {
+  0%{
+margin-bottom: 7.5%;
+opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    margin-left: 0;
+  }
+  
+}
+#first,#second{
+  display: none;
+  animation: 0.5s drop linear;
+}
+#main{
+  animation: 0.5s drop linear;
+}
+
 
 /* =====================MEDIA CONTAINER==================== */
 @media (min-width: 768px) {
@@ -1532,6 +1561,7 @@ opacity: 0;
     rotate: 0deg;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
+    transition: 0.4s border-radius;
   }
   .statis .container .feature-card:hover{
     border-radius:initial;
