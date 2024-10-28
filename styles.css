@@ -1385,7 +1385,7 @@ opacity: 0;
 }
 @keyframes drop {
   0%{
-margin-bottom: 10%;
+margin-bottom: 33.33%;
 opacity: 0;
   }
   100%{
