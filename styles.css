@@ -1609,6 +1609,12 @@ opacity: 0;
   .gif{
     scale:0.85;
   }
+  .portfolio{
+  height:750px !important;
+} 
+  .hero{
+    height:750px !important;
+  }
 }
 @media (max-width: 450px) {
   .navbar {
@@ -1636,9 +1642,7 @@ transform: scale(0.7);
   .portfolio{
   height:555px !important;
 } 
-  .hero{
-    height:555px !important;
-  }
+  
   .gif{
      width:350px !important;
     min-height:300px !important;
@@ -1654,6 +1658,6 @@ transform: scale(0.7);
   height:750px !important;
 }  */
   .hero{
-    height:1000px !important;
+    height:750px !important;
   }
 }
