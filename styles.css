@@ -1637,10 +1637,10 @@ transform: scale(0.7);
   height:555px !important;
 } 
   .log_in{
-    height:555px !important;
+     height:100% !important;
   }
   .team .slide-triangle1, .team .slide-triangle2 {
-    height:555px !important;
+     height:100% !important;
   }
   .gif{
      width:350px !important;
