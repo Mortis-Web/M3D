@@ -1061,8 +1061,8 @@ background: linear-gradient(180deg,#090b13,#121622);
 }
 .slide-gif .gif {
   background-image: url("giphy.webp");
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 350px;
   position: relative;
   transition: 0.4s all ease;
   border-radius: 50%;
@@ -1651,7 +1651,7 @@ transform: scale(0.7);
   scale:0.75;
 }
 }
-@media (max-height: 768px) and (min-width: 451px) {
+@media (max-height: 768px) {
 .portfolio{
   height:750px !important;
 } 
