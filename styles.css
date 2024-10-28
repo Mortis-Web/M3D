@@ -769,7 +769,7 @@ gap:20px;
 
 /* =============================PORTFOLIO========================= */
 .portfolio {
-  height: 85vh;
+  height: 1000px;
   position: relative;
 }
 
@@ -875,7 +875,7 @@ gap:20px;
 .team .slide-triangle1,
 .team .slide-triangle2 {
   width: calc(100%);
-  height: 85vh;
+  height: 100%;
   clip-path: polygon(0 0, 0 100%, 0 100%, 100% 100%);
   transition: 0.4s all ease;
   overflow: hidden;
@@ -922,7 +922,7 @@ gap:20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 100%;
 }
 .log_in p {
   line-height: 1.1;
@@ -976,8 +976,8 @@ gap:20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
   text-align: center;
   transition: all 0.4s ease-in-out;
-  height: 70%;
-  width: 700px;
+  height: 55%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1054,10 +1054,10 @@ gap:20px;
 background: linear-gradient(180deg,#090b13,#121622);
   display: flex !important;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  gap: 40px;
+/*   gap: 40px; */
 }
 .slide-gif .gif {
   background-image: url("giphy.webp");
@@ -1618,9 +1618,9 @@ opacity: 0;
 .feature-holder .feature-card{
   width:265px;
 }
-  .login-box1 {
+/*   .login-box1 {
     height: 60%;
-  }
+  } */
   .click_hold {
 transform: scale(0.7);
   }
@@ -1636,11 +1636,8 @@ transform: scale(0.7);
   .portfolio{
   height:555px !important;
 } 
-  .log_in{
-     height:100% !important;
-  }
-  .team .slide-triangle1, .team .slide-triangle2 {
-     height:100% !important;
+  .hero{
+    height:555px !important;
   }
   .gif{
      width:350px !important;
@@ -1653,16 +1650,10 @@ transform: scale(0.7);
 }
 
 @media (max-height: 768px) {
-.portfolio{
+/* .portfolio{
   height:750px !important;
-} 
-  .log_in{
-    height:100% !important;
-  }
-  .team .slide-triangle1, .team .slide-triangle2 {
-    height:100% !important;
-  }
+}  */
   .hero{
-    height:750px !important;
+    height:1000px !important;
   }
 }
