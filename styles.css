@@ -1289,6 +1289,7 @@ footer .container .contents .subscribe .input .submit {
   letter-spacing: 1px;
   font-size: 16px;
   font-style: italic;
+  text-transform:uppercase;
 }
 
 footer .container .contents .subscribe .input i {
@@ -1507,7 +1508,12 @@ opacity: 0;
   }
   .login-box1 {
     width: 90%;
+    height:65%;
   }
+ 
+}
+
+@media (max-width: 650px) {
  .team .slide-triangle2:hover {
   clip-path: polygon(100% 100%, -100% 100%, 100% -100%, 100% 0);
   z-index: 100;
@@ -1523,13 +1529,7 @@ opacity: 0;
   }
   .click_hold:hover .hidden1 {
    display: none; 
-  }
-}
-
-@media (max-width: 650px) {
-  .logo-holder{
-    transform:scale(0.8);
-  } 
+  }  
   .hero .container {
     display: flex;
     flex-direction: column;
@@ -1624,9 +1624,6 @@ opacity: 0;
 .feature-holder .feature-card{
   width:265px;
 }
-/*   .login-box1 {
-    height: 60%;
-  } */
   .click_hold {
 transform: scale(0.7);
   }
@@ -1646,17 +1643,17 @@ transform: scale(0.7);
   .gif{
      width:350px !important;
     min-height:300px !important;
+    height:300px !important;
   }
   .swiper-button-next, .swiper-button-prev{
   scale:0.75;
 }
-
+.logo-holder{
+    transform:scale(0.85);
+  }
 }
 
 @media (max-height: 768px) {
-/* .portfolio{
-  height:750px !important;
-}  */
   .hero{
     height:750px !important;
   }
