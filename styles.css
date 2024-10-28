@@ -1646,11 +1646,12 @@ transform: scale(0.7);
      width:350px !important;
     min-height:300px !important;
   }
-}
-.swiper-button-next, .swiper-button-prev{
+  .swiper-button-next, .swiper-button-prev{
   scale:0.75;
 }
+
 }
+
 @media (max-height: 768px) {
 .portfolio{
   height:750px !important;
