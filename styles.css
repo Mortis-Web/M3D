@@ -1107,12 +1107,14 @@ background: linear-gradient(180deg,#090b13,#121622);
   height: 100px;
   border-radius: 0;
   top: -5px;
+  left:-5px;
   border-top: 10px solid aqua;
 }
 .slide-gif .gif:hover::before {
   width: 100px;
   height: 100px;
   bottom: -5px;
+  right:-5px;
   border-radius: 0;
   border-bottom: 10px solid aqua;
 }
