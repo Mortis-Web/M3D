@@ -61,6 +61,7 @@ switchers.forEach(function (switcher) {
     }
     if (e.target.id === "three"){
       main.style.display = "flex";
+      main.classList.add("main");
       second.style.display = "none";
       first.style.display = "none";
     }
