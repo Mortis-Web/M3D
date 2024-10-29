@@ -1447,7 +1447,7 @@ opacity: 0;
 }
 
 /* =====================MEDIA==================== */
-@media (max-width: 1199px) and (min-width: 900px) {
+@media (max-width: 1199px) and (min-width: 916px) {
   .statis .last_counter {
     margin-top: -5%;
   }
