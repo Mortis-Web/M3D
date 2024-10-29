@@ -1666,6 +1666,10 @@ transform: scale(0.7);
   .portfolio{
   height:555px !important;
 } 
+    .hero{
+    height:555px !important;
+  }
+
   
   .gif{
      width:350px !important;
