@@ -1312,8 +1312,26 @@ footer .container .contents .subscribe .input i {
   transition: all 0.4s;
   z-index: 1;
   transform: scale(1.4);
+display:none;
+}
+
+.btn-anim{
+  animation: btn 0.5s linear;
 }
 /* =============KEYFRAMES=============== */
+@keyframes btn {
+  0%{
+    opacity: 0;
+    scale: 0.75;
+    }
+  
+  100%{
+    
+    opacity: 1;
+  }
+  
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
