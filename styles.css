@@ -1385,7 +1385,7 @@ opacity: 0;
 }
 @keyframes drop {
   0%{
-transform: translateY(-50px);
+transform: translateY(-30px);
 opacity: 0;
   }
   100%{
@@ -1613,7 +1613,7 @@ opacity: 0;
   height:750px !important;
 } 
   .swiper-button-next, .swiper-button-prev{
-  scale:0;
+  display:none;
 }
   .hero{
     height:750px !important;
