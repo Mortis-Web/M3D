@@ -903,7 +903,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   transform: perspective(2500px) rotateY(0);
 }
 [data-aos="flip-up"] {
-  transform: perspective(2500px) rotateX(-100deg);
+  transform: perspective(100px) rotateX(-100deg);
 }
 [data-aos="flip-up"].aos-animate {
   transform: perspective(2500px) rotateX(0);
