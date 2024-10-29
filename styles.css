@@ -1277,6 +1277,7 @@ footer .container .contents .subscribe .input .email {
   line-height: 45px;
   width: 100%;
   color: white;
+  border-right:none;
 }
 footer .container .contents .subscribe .input .email:focus {
   outline: none;
@@ -1285,12 +1286,13 @@ footer .container .contents .subscribe .input .submit {
   cursor: pointer;
   background-color: aqua;
   position: relative;
-  border: none;
   color: white;
   padding: 0px 10px;
   letter-spacing: 1px;
   font-size: 16px;
   font-style: italic;
+  border: 1px #363636 solid;
+  border-left:none;
   text-transform:uppercase;
 }
 
