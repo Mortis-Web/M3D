@@ -1603,7 +1603,7 @@ opacity: 0;
   }
   .statis .container .feature-card {
     width: 60% !important;
-    min-width:265px;
+    min-width:235px;
     rotate: 0deg;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
@@ -1643,6 +1643,7 @@ opacity: 0;
     height:750px !important;
   }
 }
+
 @media (max-width: 450px) {
   .navbar {
     flex-direction: column;
@@ -1669,14 +1670,11 @@ transform: scale(0.7);
     .hero{
     height:650px !important;
   }
-
-  
   .gif{
      width:350px !important;
     min-height:300px !important;
     height:300px !important;
   }
-  
 .logo-holder{
     transform:scale(0.85);
   }
