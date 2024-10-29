@@ -1400,7 +1400,7 @@ opacity: 0;
   display: none;
   animation: 0.5s drop linear;
 }
-#main{
+.main{
   animation: 0.5s drop linear;
 }
 
