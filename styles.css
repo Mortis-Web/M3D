@@ -311,6 +311,7 @@ footer {
 .hero-cta {
   background: transparent;
   padding: 10px 50px;
+  font-weight:bold;
   text-decoration: none;
   border-radius: 5px;
   color: #fff;
@@ -348,8 +349,7 @@ footer {
   color: transparent;
   background: linear-gradient(25deg, white, aqua);
   background-clip: text;
-  font-weight: bold;
-}
+ }
 .hero-cta:hover::before,
 .hero-cta:hover::after {
   width: 99%;
@@ -691,6 +691,7 @@ gap:20px;
   justify-content: center;
   align-items: center;
   transform: rotate(-45deg);
+  font-weight:bold;
 }
 .margin-top {
   margin-top: 23%;
@@ -978,7 +979,7 @@ gap:20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
   text-align: center;
   transition: all 0.4s ease-in-out;
-  height: 65%;
+  height: 75%;
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -994,6 +995,7 @@ gap:20px;
 
 .login-box1 h2 {
   font-size: 2em;
+  font-weight:bold;
   color: #fff;
   animation: fadeIn 2s ease-in-out;
 }
