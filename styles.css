@@ -1653,7 +1653,7 @@ opacity: 0;
 @media (max-width: 450px) {
   .navbar {
     flex-direction: column;
-    gap: 5px;
+   padding:0.25rem 1rem !important;
   }
 .feature-holder .feature-card{
   width:265px;
