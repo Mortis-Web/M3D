@@ -1612,6 +1612,9 @@ opacity: 0;
     border-bottom-left-radius:50px;
     transition: 0.8s , 0.4s border-radius;
   }
+  .statis .container .feature-card .icon-frame{
+    width:60px !important;
+  }
   .statis .container .feature-card:hover{
     border-radius:initial;
   }
