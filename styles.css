@@ -1006,7 +1006,7 @@ gap:20px;
 }
 
 .textbox input {
-  width: 100%;
+  width: 90%;
   padding: 10px 15px;
   border: 1px solid #ddd;
   border-radius: 1rem;
@@ -1605,7 +1605,8 @@ opacity: 0;
   }
   .statis .container .feature-card {
     width: 60% !important;
-    min-width:235px;
+    min-width:265px;
+    height: 275px !important;
     rotate: 0deg;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
