@@ -300,12 +300,14 @@ footer {
   font-size: 3rem;
   margin-bottom: 0.5rem;
   max-width: 50%;
+  text-shadow: 5px 5px 6px #090b13;
 }
 
 .hero-subheadline {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   max-width:65%;
+  text-shadow: 5px 5px 6px #090b13;
 }
 
 .hero-cta {
@@ -319,6 +321,8 @@ footer {
   transition: all 0.4s ease-in-out;
   position: relative;
   overflow: hidden;
+    text-shadow: 0 0 5px #fff , 0 0 15px #fff,0 0 25px #fff,0 0 100px #fff;
+
 }
 
 .hero-cta::after {
@@ -1200,6 +1204,7 @@ footer .container .contents .icons {
   gap: 30px;
   margin-top: 20px;
   justify-content: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
 }
 
 footer .container .contents .icons i {
